@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the Blog!",
+      "body": "This is your first blog post.",
+      "datetime": "2025-08-05T15:00:00"
+    }
+  ]
+}
