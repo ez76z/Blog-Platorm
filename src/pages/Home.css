@@ -1,0 +1,55 @@
+/* src/pages/Home.css */
+.home {
+  padding: 2rem;
+  color: #334155;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Status container for loading and error states */
+.status-container {
+  text-align: center;
+  padding: 3rem;
+  color: #334155;
+}
+
+.status-container.error {
+  color: red;
+}
+
+.status-container button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0f172a;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.status-container button:hover {
+  background-color: #1e293b;
+}
+
+/* Simple spinner */
+.spinner {
+  margin: 0 auto 1rem;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #cbd5e1;
+  border-top-color: #0f172a;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Spin animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

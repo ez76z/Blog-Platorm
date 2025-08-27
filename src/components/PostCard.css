@@ -1,0 +1,74 @@
+.post-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #334155; /* added this */
+}
+
+.post-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #334155; /* updated */
+}
+
+.post-card p {
+  color: #334155; /* updated from #475569 */
+}
+
+.read-btn {
+  margin-top: 1rem;
+  background-color: #0f172a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.read-btn:hover {
+  background-color: #1e293b;
+}
+
+.card-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 1rem;
+}
+
+.delete-btn {
+  background-color: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #d32626;
+}
+
+.edit-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #3a78c2;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 6px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
